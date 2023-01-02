@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    height: auto;
+    width: 1300px;
+    margin: 5px;
+    padding: 75px;
+ 
+   
+}
+
+
+.main{
+    height: auto;
+    width:auto ;
+    margin:  auto;
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr  1fr 1fr;
+
+}
+.top-section{
+    width: auto;
+    text-align: start;
+    padding: auto;
+    grid-column: 1/2;
+    font-weight: lighter; 
+   
+    
+}
+.contact-section{
+    width: auto;
+    padding: auto;
+    text-align: end;
+    grid-column: 3;
+    color: #0e0e0e;
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: var();
+    color: #0e0e0e;
+    
+    
+}
+
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: var();
+    color: #0e0e0e;
+
+}
+.p4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: var();
+    color: #0e0e0e;
+    
+}
+
+.logo{
+    position: absolute;
+    height: 40px;
+    width: 40px; 
+}
